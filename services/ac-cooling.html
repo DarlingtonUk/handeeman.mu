@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Condition & Cooling | HanDEEman.mu</title>
+
+    <!-- Bootstrap Scripts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome Embedded -->
+    <script src="https://kit.fontawesome.com/47e0134adb.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- Local Stylesheet -->
+
+
+    <!-- Embedded Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- Available Handymen Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Available Handymen for <b>*Sevice Selected*</b></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <a href="">
+                        <div class="handymen-list">
+                            <img class="handy-profile-img"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                alt="">
+                            <h6>Emmanuel Prince</h6>
+                            <span>⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="handymen-list">
+                            <img class="handy-profile-img"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                alt="">
+                            <h6>Emmanuel Prince</h6>
+                            <span>⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="handymen-list">
+                            <img class="handy-profile-img"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                alt="">
+                            <h6>Emmanuel Prince</h6>
+                            <span>⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="handymen-list">
+                            <img class="handy-profile-img"
+                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                alt="">
+                            <h6>Emmanuel Prince</h6>
+                            <span>⭐⭐⭐⭐⭐</span>
+                        </div>
+                    </a>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+
+    <section id="title">
+        <header class="p-3 fixed-top">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../images/logo.png" alt="" width="50" height="50">
+                        </a>
+                    </a>
+
+                    <ul class="nav col-lg-4 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="../index.html" class="nav-link px-2 text-dark">Home</a></li>
+                        <li><a href="../about.html" class="nav-link px-2 text-dark">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-secondary dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="electrical.html"><i
+                                            class="fa-solid fa-bolt"></i>&nbsp;&nbsp;Electrical</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="plumbing.html"><i
+                                            class="fa-solid fa-wrench"></i>&nbsp;&nbsp;Plumbing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="painting.html"><i
+                                            class="fa-solid fa-paint-roller"></i>&nbsp;&nbsp;Painting</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="moving-storage.html"><i
+                                            class="fa-solid fa-truck-ramp-box"></i>
+                                        &nbsp;&nbsp;Moving & Storage</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="janitorial.html"><i
+                                            class="fa-solid fa-broom"></i>&nbsp;&nbsp;Janitorial</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="ac-cooling.html"><i
+                                            class="fa-solid fa-fan"></i>&nbsp;&nbsp;Air
+                                        Condition & Cooling</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="gardening.html"><i
+                                            class="fa-solid fa-tree"></i>&nbsp;&nbsp;Gardening</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="pool-maintainance.html"><i
+                                            class="fa-solid fa-person-swimming"></i>&nbsp;&nbsp;Pool Maintenance</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../services.html"><i
+                                            class="fa-solid fa-bars-staggered"></i>&nbsp;&nbsp;View All Services</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="../contact.html" class="nav-link px-2 text-dark">Contact</a></li>
+                    </ul>
+
+
+                    <form id="search-service" method="get" action="searchResults.html"
+                        class="container-fluid col-lg-4 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i
+                                    class="fa-solid fa-magnifying-glass"></i></span>
+                            <input id="txt-search" type="text" class="form-control txt-search"
+                                placeholder="What service do you need today?" aria-label="Service"
+                                aria-describedby="basic-addon1">
+                        </div>
+                    </form>
+
+                    <div class="col-lg-3 text-end">
+                        <button type="button" class="btn btn-outline-primary me-2"><i
+                                class="fa-solid fa-lock"></i>&nbsp;&nbsp;Login</button>
+                        <button type="button" class="btn btn-primary"><i
+                                class="fa-solid fa-user-plus"></i>&nbsp;&nbsp;Sign-up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <!-- Search Results Cards -->
+    <section id="search-results">
+        <div class="container">
+            <div class="row">
+                <h1 class="search-header"><b><i class="fa-solid fa-fan"></i>&nbsp;Air Condition & Coooling Services</b>
+                </h1>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Air Conditioning - Installation</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Air Conditioning - Repair</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Air Conditioning - Servicing</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fans</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Swamp Cooler - Installation</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Swamp Cooler - Replacement</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Swamp Cooler - Servicing</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Swamp Cooler - Repair</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Window A/C Unit - Installation</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Window A/C Unit - Servicing</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Window A/C Unit - Relocation</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigeration System - Installation</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigeration System - Repair</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigeration System - Servicing</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://dummyimage.com/630x430/CFD2CF/fff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Refrigeration System - Replacement</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quasi.
+                        </p>
+                        <a class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                            available handymen&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <hr class="hm-hr-search">
+
+    <!-- Footer -->
+
+    <section id="footer">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form>
+                            <h5>Let us keep you in the loop</h5>
+                            <p class="update-sub">Get updated when new services are available on HanDEEman.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>© 2022 HanDEEman.mu, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+    <!-- Minified JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
+        </script>
+
+
+    <script>
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchParam = urlParams.get('Find');
+        $("document").ready(function () {
+            $(".result-text").text(searchParam)
+            $("#search-service").submit(function (e) {
+                e.preventDefault();
+
+                let searchParam = $("#txt-search").val()
+                if (searchParam == "") {
+                    alert("Nothing provided");
+
+                    return
+                }
+            })
+        })
+
+    </script>
+
+
+</body>
+
+</html>

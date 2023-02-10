@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | HanDEEman.mu</title>
+
+    <!-- Bootstrap Scripts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome Embedded -->
+    <script src="https://kit.fontawesome.com/47e0134adb.js" crossorigin="anonymous"></script>
+
+    <!-- Local Stylesheet -->
+
+
+    <!-- Embedded Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <section id="title">
+        <header class="p-3 fixed-top">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logo.png" alt="" width="50" height="50">
+                        </a>
+                    </a>
+
+                    <ul class="nav col-lg-4 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+                        <li><a href="about.html" class="nav-link px-2 text-dark">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="services/electrical.html"><i
+                                            class="fa-solid fa-bolt"></i>&nbsp;&nbsp;Electrical</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services/plumbing.html"><i
+                                            class="fa-solid fa-wrench"></i>&nbsp;&nbsp;Plumbing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services/painting.html"><i
+                                            class="fa-solid fa-paint-roller"></i>&nbsp;&nbsp;Painting</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services/moving-storage.html"><i
+                                            class="fa-solid fa-paint-roller"></i>
+                                        &nbsp;&nbsp;Moving & Storage</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services/janitorial.html"><i
+                                            class="fa-solid fa-broom"></i>&nbsp;&nbsp;Janitorial</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services/aircon-cooling.html"><i
+                                            class="fa-solid fa-fan"></i>&nbsp;&nbsp;Air
+                                        Condition & Cooling</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services/gardening.html"><i
+                                            class="fa-solid fa-tree"></i>&nbsp;&nbsp;Gardening</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="services/pool-maintainance.html"><i
+                                            class="fa-solid fa-person-swimming"></i>&nbsp;&nbsp;Pool Maintenance</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="services.html"><i
+                                            class="fa-solid fa-bars-staggered"></i>&nbsp;&nbsp;View All Services</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html" class="nav-link px-2 text-dark">Contact</a></li>
+                    </ul>
+
+
+                    <form id="search-service" method="get" action="searchResults.html"
+                        class="container-fluid col-lg-4 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1"><i
+                                    class="fa-solid fa-magnifying-glass"></i></span>
+                            <input id="txt-search" type="text" class="form-control txt-search"
+                                placeholder="What service do you need today?" aria-label="Service"
+                                aria-describedby="basic-addon1">
+                        </div>
+                    </form>
+
+                    <div class="col-lg-3 text-end">
+                        <button type="button" class="btn btn-outline-primary me-2"><i
+                                class="fa-solid fa-lock"></i>&nbsp;&nbsp;Login</button>
+                        <button type="button" class="btn btn-primary"><i
+                                class="fa-solid fa-user-plus"></i>&nbsp;&nbsp;Sign-up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <!-- Handyman Profile + Booking -->
+
+
+
+    <section id="handyman-profile">
+
+        <div class="profile-block">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""
+                class="user-profile-img">
+            <div class="user-profile-stats">
+                <h1>Sultan Jamal</h1>
+                <span class="star-rating">⭐⭐⭐⭐⭐</span>
+                <div class="skill-tags">
+                    <span class="tags">Plumbing</span>
+                    <span class="tags">Drainage Cleaning</span>
+                    <span class="tags">Leak Repairs</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <section id="profile-booking-navtab">
+
+
+            <ul class="nav nav-justified nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" id="nav-bio-tab" data-bs-toggle="tab" data-bs-target="#nav-bio"
+                        aria-current="page" type="button" role="tab" aria-controls="nav-bio"
+                        aria-selected="true">Bio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-bio-tab" data-bs-toggle="tab" data-bs-target="#nav-portfolio"
+                        aria-current="page" type="button" role="tab" aria-controls="nav-portfolio"
+                        aria-selected="false">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-bio-tab" data-bs-toggle="tab" data-bs-target="#nav-pricing"
+                        aria-current="page" type="button" role="tab" aria-controls="nav-pricing"
+                        aria-selected="false">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-bio-tab" data-bs-toggle="tab" data-bs-target="#nav-booking"
+                        aria-current="page" type="button" role="tab" aria-controls="nav-booking"
+                        aria-selected="false">Booking</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="profile-section">
+
+                <div class="tab-pane fade show active p-3" id="nav-bio" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <h1>Bio Section</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas iusto laudantium placeat
+                        dolor, odio ratione odit, aliquid temporibus magnam sed quos ducimus reprehenderit accusantium
+                        possimus recusandae atque veniam consequuntur impedit hic nostrum adipisci, tempore doloribus
+                        quo est. Qui explicabo unde, quidem voluptas velit mollitia quibusdam pariatur corrupti placeat
+                        corporis aperiam.</p>
+                </div>
+
+                <div class="tab-pane fade show p-3" id="nav-portfolio" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <h1>Portfolio Section</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit qui provident id exercitationem,
+                        delectus vero consequatur esse tempora odit sit, quibusdam ex ut minima? In, aliquam! Itaque
+                        illum sed non assumenda repudiandae excepturi eos natus vitae, numquam expedita ducimus
+                        cupiditate nemo iusto aperiam exercitationem, voluptates suscipit? Dolor repellendus sapiente
+                        neque.</p>
+                </div>
+
+                <div class="tab-pane fade show p-3" id="nav-pricing" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                        <div class="col">
+                          <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                              <h4 class="my-0 fw-normal">General Plumbing</h4>
+                            </div>
+                            <div class="card-body">
+                              <h1 class="card-title pricing-card-title">Rs300<small class="text-muted fw-light">/hr</small></h1>
+                              <ul class="list-unstyled mt-3 mb-4">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                              </ul>
+                              <button type="button" data-bs-target="#nav-booking" class="w-100 btn btn-outline-primary">Book this service&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                              <h4 class="my-0 fw-normal">Drainage Cleaning</h4>
+                            </div>
+                            <div class="card-body">
+                              <h1 class="card-title pricing-card-title">Rs500<small class="text-muted fw-light">/hr</small></h1>
+                              <ul class="list-unstyled mt-3 mb-4">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                              </ul>
+                              <button type="button" data-bs-toggle="tab" data-bs-target="#nav-booking" class="w-100 btn btn-outline-primary">Book this service&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                              <h4 class="my-0 fw-normal">Leak Repairs</h4>
+                            </div>
+                            <div class="card-body">
+                              <h1 class="card-title pricing-card-title">Rs200<small class="text-muted fw-light">/hr</small></h1>
+                              <ul class="list-unstyled mt-3 mb-4">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                              </ul>
+                              <button type="button" class="w-100 btn btn-outline-primary">Book this service&nbsp;&nbsp;<i class="fa-solid fa-angles-right"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="tab-pane fade show  p-3" id="nav-booking" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <h1>Booking Section</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, modi iste? Deserunt eos, sed amet
+                        non soluta aliquid ratione quas quis sunt enim! Numquam praesentium asperiores, cum labore enim
+                        rem! Labore consectetur nulla ab, consequatur iusto dolorum adipisci harum eveniet quas enim,
+                        ipsa officia delectus doloribus placeat pariatur obcaecati itaque.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+
+
+    <hr class="hm-hr-search">
+
+    <!-- Footer -->
+
+    <section id="footer">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form>
+                            <h5>Let us keep you in the loop</h5>
+                            <p class="update-sub">Get updated when new services are available on HanDEEman.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>© 2022 HanDEEman.mu, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+    <!-- Minified JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchParam = urlParams.get('Find');
+        $("document").ready(function () {
+            $("#result-text").text(searchParam)
+            $("#search-service").submit(function (e) {
+                e.preventDefault();
+
+                let searchParam = $("#txt-search").val()
+                if (searchParam == "") {
+                    alert("Nothing provided")
+
+                    return
+                }
+            })
+        })
+
+
+
+
+    </script>
+
+
+</body>
+
+
+
+
+
+</html>
